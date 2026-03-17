@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 499,
+    "currency": "BDT",
+    "duration": "per month",
+    "features": [
+      "Table reservation system",
+      "Basic menu display",
+      "Customer support (email)",
+      "Single branch management"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": 999,
+    "currency": "BDT",
+    "duration": "per month",
+    "features": [
+      "Everything in Basic",
+      "Online food ordering",
+      "Payment integration",
+      "Customer reviews & ratings",
+      "Priority support"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": 1999,
+    "currency": "BDT",
+    "duration": "per month",
+    "features": [
+      "Everything in Standard",
+      "Multi-branch management",
+      "Advanced analytics dashboard",
+      "Custom branding",
+      "24/7 dedicated support"
+    ]
+  }
+]

@@ -50,7 +50,8 @@ const Navbar = () => {
       
       <span onClick={() => {setOpen(!open)}} className='flex gap-2'>
         {open ? <X className='md:hidden'></X> :  <Menu className='md:hidden'></Menu>}
-        <ul className='flex md:hidden flex-col gap-2'>
+        <ul className={`flex md:hidden flex-col gap-2 absolute z-10 duration-1000 top-12
+          ${open ? 'left-4' : '-left-[50%]'} bg-white w-[50%] pr-4 pb-4`}>
           {links}
         </ul>
           
