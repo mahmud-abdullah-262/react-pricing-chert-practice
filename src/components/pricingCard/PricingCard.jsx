@@ -8,12 +8,14 @@ const PricingCard = ({ pricing }) => {
       <h1 className="text-4xl text-center">{name}</h1>
       <h4 className="text-xl text-center">{price} bdt/per month</h4>
       <hr className="border-gray-400" />
-      <div className="mt-4">
+      <div className="mt-4 flex-1">
         {features.map((feature, index) => (
           <PricingFeatures key={index} feature={feature}></PricingFeatures>
         ))}
       </div>
+      <button className="btn btn-primary w-full mt-10">Subscribe</button>
     </div>
+    
   );
 };
 
